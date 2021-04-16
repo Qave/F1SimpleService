@@ -1,0 +1,6 @@
+<div>
+    <h3>F1 Drivers in 2019</h3>
+    <div class="d-flex flex-wrap">
+        <app-driver-details  *ngFor="let driver of drivers | async" [driver]=driver></app-driver-details>    
+    </div>
+</div>
